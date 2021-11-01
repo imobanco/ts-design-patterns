@@ -1,15 +1,15 @@
 {
-    "compilerOptions": {
-      "outDir": "out",
-      "target": "ESNext",
-      "module": "commonjs",
-      "sourceMap": true
-    },
-    "include": ["./src/**/*"],
-    "files.exclude": {
-      "./src/**/*.js": { "when": "$(basename).ts" }
-    },
-    "watchFile": "useFsEvents",
-    "watchDirectory": "useFsEvents",
-    "excludeDirectories": ["**/node_modules", "build"]
-  }
+  "compilerOptions": {
+    "outDir": "out",
+    "inlineSourceMap": false,
+    "target": "ESNext",
+    "module": "commonjs"
+  },
+  "include": ["./src/**/*"],
+  "files.exclude": {
+    "./src/**/*.js": { "when": "$(basename).ts" }
+  },
+  "watchFile": "useFsEvents",
+  "watchDirectory": "useFsEvents",
+  "excludeDirectories": ["**/node_modules", "out"]
+}

@@ -1,18 +1,18 @@
 {
-    "name": "ts-design-patterns",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "watch": "npx tsc --watch",
-      "build": "npx tsc build"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "devDependencies": {
-      "@babel/preset-typescript": "^7.15.0",
-      "typescript": "^4.3.5"
-    }
+  "name": "ts-design-patterns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npx tsc --watch",
+    "build": "npx tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.15.0",
+    "typescript": "^4.3.5"
   }
+}
